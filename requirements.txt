@@ -3,4 +3,4 @@ librosa
 torch
 numpy
 soundfile
-streamlit-audiorecorder
+audio-recorder-streamlit

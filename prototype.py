@@ -10,7 +10,7 @@ from audio_recorder_streamlit import audio_recorder
 from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2Processor
 
 @st.cache_resource
-def load_model_and_processor(model_path="wav2vec2", le_path="le.pkl"):
+def load_model_and_processor(model_path="ChYpHuTh14/wav2vec2-lisentra", le_path="le.pkl"):
     try:
         processor = Wav2Vec2Processor.from_pretrained(model_path)
         model = Wav2Vec2ForSequenceClassification.from_pretrained(model_path)

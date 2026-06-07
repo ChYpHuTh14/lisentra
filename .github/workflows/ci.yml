@@ -25,5 +25,5 @@ jobs:
 
       - name: Check app syntax
         run: |
-          python -m py_compile protoype.py
+          python -m py_compile prototype.py
           echo "Syntax OK"

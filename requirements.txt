@@ -4,3 +4,4 @@ torch
 numpy
 soundfile
 audio-recorder-streamlit
+transformers
